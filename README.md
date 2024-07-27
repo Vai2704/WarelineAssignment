@@ -46,23 +46,25 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 implementation 'com.android.volley:volley:1.1.1'
 ```
 
-##Code Overview
-#MainActivity.java
--Initializes the RecyclerView and sets up the GridLayoutManager.
--Implements infinite scrolling using a RecyclerView.OnScrollListener.
--Fetches images from the Pexels API using Volley.
--Updates the RecyclerView with the fetched images.
-#ImageAdapter.java
--Binds image data to the RecyclerView items using Glide for image loading.
-#MyAppGlideModule.java
--Customizes Glide's memory and disk caching settings.
-#ImageModel.java
--Represents the image data model.
-#Layout Files
--activity_main.xml: Contains the RecyclerView and ProgressBar.
--image_item.xml: Defines the layout for each image item in the RecyclerView.
-#Screenshots
+# Code Overview
 
 
-#Contributing
-Feel free to fork this repository and contribute by submitting a pull request.
+## MainActivity.java
+- Initializes the RecyclerView and sets up the GridLayoutManager.
+- Implements infinite scrolling using a RecyclerView.OnScrollListener.
+- Fetches images from the Pexels API using Volley.
+- Updates the RecyclerView with the fetched images.
+# ImageAdapter.java
+- Binds image data to the RecyclerView items using Glide for image loading.
+# MyAppGlideModule.java
+- Customizes Glide's memory and disk caching settings.
+# ImageModel.java
+- Represents the image data model.
+# Layout Files
+- activity_main.xml: Contains the RecyclerView and ProgressBar.
+- image_item.xml: Defines the layout for each image item in the RecyclerView.
+# Screenshots
+
+
+# Contributing
+- Feel free to fork this repository and contribute by submitting a pull request.
