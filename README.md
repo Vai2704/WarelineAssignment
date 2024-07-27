@@ -1,6 +1,7 @@
 # Wareline Assignment
 
 This is an Android application that fetches images from the Pexels API and displays them in a RecyclerView using Glide for image loading and caching.
+This project is developed on the latest Android version and supports compile SDK 34. 
 
 ## Features
 
@@ -43,9 +44,9 @@ This is an Android application that fetches images from the Pexels API and displ
 
 Add these dependencies in your `build.gradle` file:
 ```gradle
-implementation 'com.github.bumptech.glide:glide:4.16.0'
-annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
-implementation 'com.android.volley:volley:1.2.1'
+implementation ("com.github.bumptech.glide:glide:4.16.0")
+annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
+implementation ("com.android.volley:volley:1.2.1")
 ```
 
 
