@@ -12,22 +12,24 @@ This is an Android application that fetches images from the Pexels API and displ
 ## Prerequisites
 
 - Android Studio
+- Java JDK
 - A Pexels API key
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/wareline-assignment.git
+    git clone https://github.com/Vai2704/WarelineAssignment.git
     ```
 2. Open the project in Android Studio.
 
 3. Add your Pexels API key in `MainActivity.java`:
+    - Add your Pexels API key here.
     ```java
     params.put("Authorization", "YOUR_PEXELS_API_KEY");
     ```
 
-4. Sync the project to resolve dependencies.
+5. Sync the project to resolve dependencies.
 
 ## Usage
 
@@ -41,29 +43,10 @@ This is an Android application that fetches images from the Pexels API and displ
 
 Add these dependencies in your `build.gradle` file:
 ```gradle
-implementation 'com.github.bumptech.glide:glide:4.12.0'
-annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
-implementation 'com.android.volley:volley:1.1.1'
+implementation 'com.github.bumptech.glide:glide:4.16.0'
+annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+implementation 'com.android.volley:volley:1.2.1'
 ```
-
-# Code Overview
-
-
-# MainActivity.java
-- Initializes the RecyclerView and sets up the GridLayoutManager.
-- Implements infinite scrolling using a RecyclerView.OnScrollListener.
-- Fetches images from the Pexels API using Volley.
-- Updates the RecyclerView with the fetched images.
-## ImageAdapter.java
-- Binds image data to the RecyclerView items using Glide for image loading.
-## MyAppGlideModule.java
-- Customizes Glide's memory and disk caching settings.
-## ImageModel.java
-- Represents the image data model.
-## Layout Files
-- activity_main.xml: Contains the RecyclerView and ProgressBar.
-- image_item.xml: Defines the layout for each image item in the RecyclerView.
-## Screenshots
 
 
 ## Contributing
