@@ -46,7 +46,7 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 implementation 'com.android.volley:volley:1.1.1'
 
 
-**Code Overview**
+##Code Overview
 MainActivity.java
 Initializes the RecyclerView and sets up the GridLayoutManager.
 Implements infinite scrolling using a RecyclerView.OnScrollListener.
