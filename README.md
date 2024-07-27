@@ -24,7 +24,7 @@ This is an Android application that fetches images from the Pexels API and displ
 2. Open the project in Android Studio.
 
 3. Add your Pexels API key in `MainActivity.java`:
-    - Add your Pexels API key here.
+    
     ```java
     params.put("Authorization", "YOUR_PEXELS_API_KEY");
     ```
