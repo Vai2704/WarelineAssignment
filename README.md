@@ -49,22 +49,22 @@ implementation 'com.android.volley:volley:1.1.1'
 # Code Overview
 
 
-## MainActivity.java
+# MainActivity.java
 - Initializes the RecyclerView and sets up the GridLayoutManager.
 - Implements infinite scrolling using a RecyclerView.OnScrollListener.
 - Fetches images from the Pexels API using Volley.
 - Updates the RecyclerView with the fetched images.
-# ImageAdapter.java
+## ImageAdapter.java
 - Binds image data to the RecyclerView items using Glide for image loading.
-# MyAppGlideModule.java
+## MyAppGlideModule.java
 - Customizes Glide's memory and disk caching settings.
-# ImageModel.java
+## ImageModel.java
 - Represents the image data model.
-# Layout Files
+## Layout Files
 - activity_main.xml: Contains the RecyclerView and ProgressBar.
 - image_item.xml: Defines the layout for each image item in the RecyclerView.
-# Screenshots
+## Screenshots
 
 
-# Contributing
+## Contributing
 - Feel free to fork this repository and contribute by submitting a pull request.
